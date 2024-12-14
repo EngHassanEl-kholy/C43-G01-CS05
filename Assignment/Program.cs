@@ -107,6 +107,14 @@ namespace Assignment
         //}
         #endregion
 
+        #region Q08
+        //static void ChangeChar(ref string text,int index,char c)
+        //{
+        //   char[]arr=text.ToCharArray();
+        //    arr[index] = c;
+        //    text = new string(arr);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q01
@@ -172,6 +180,15 @@ namespace Assignment
             //7-Create an iterative (non-recursive) function to calculate the factorial
             //of the number specified as parameter
             //Console.WriteLine(Getfactorial(5));
+            #endregion
+
+            #region Q08
+            //8-	Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string,
+            //replacing it with a different letter
+            //string txt = "Route";
+            //ChangeChar(ref txt, 0, 'M');
+            //Console.WriteLine(txt);
+
             #endregion
 
         }
