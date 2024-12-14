@@ -95,6 +95,18 @@ namespace Assignment
         //}
         #endregion
 
+        #region Q07
+        //static int Getfactorial(int num)
+        //{
+        //    int factorial = 1;
+        //    for(int i=1;i<=num;i++)
+        //    {
+        //        factorial = i * factorial;
+        //    }
+        //    return factorial;
+        //}
+        #endregion
+
         static void Main(string[] args)
         {
             #region Q01
@@ -156,7 +168,11 @@ namespace Assignment
             //Console.WriteLine(max);
             #endregion
 
-
+            #region Q07
+            //7-Create an iterative (non-recursive) function to calculate the factorial
+            //of the number specified as parameter
+            //Console.WriteLine(Getfactorial(5));
+            #endregion
 
         }
     }
