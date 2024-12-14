@@ -34,6 +34,19 @@ namespace Assignment
         //    sub = num01 - num02;
         //}
         #endregion
+
+        #region Q04
+        //static int SumOfDigit(int Num)
+        //{
+        //    int sum = 0;
+        //    while(Num!=0)
+        //    {
+        //        sum += Num % 10;
+        //        Num /= 10;
+        //    }
+        //    return sum;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q01
@@ -71,6 +84,13 @@ namespace Assignment
 
 
             #endregion
+
+            #region Q04
+            //4-Write a program in C# Sharp to create a function to calculate
+            //the sum of the individual digits of a given number.
+            //Console.WriteLine(SumOfDigit(303));  //6
+            #endregion
+
 
 
 
