@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Text;
+
+namespace Assignment
 {
     class Program
     {
@@ -12,6 +14,18 @@
         //    number += 20;
         //}
         #endregion
+
+        #region Q02
+        
+        //static void AddHi(StringBuilder stringBuilder)
+        //{
+        //    stringBuilder.Append(" Hi");
+        //}
+        //static void AddHi(ref StringBuilder stringBuilder)
+        //{
+        //    stringBuilder = new StringBuilder("Hi");
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q01
@@ -22,6 +36,21 @@
             //Console.WriteLine(Num);   // will print 10 because it passed by value
             //IncrementNumber(ref Num);   //pass by reference
             //Console.WriteLine(Num);     // will print 30
+            #endregion
+
+            #region Q02
+            //2-Explain the difference between passing (Reference type parameters)
+            //by value and by reference then write a suitable c# example.
+            //StringBuilder stringBuilder = new StringBuilder("Hassan");
+            //AddHi(stringBuilder); //pass by value = [address]
+            //Console.WriteLine(stringBuilder);
+            //will print "Hassan Hi" , it changed and same thing will display if it pass 
+            //by ref in this example but if we change the StringBuilder in the
+            //function will see the difference
+            //AddHi(ref stringBuilder);                //pass by reference
+            //Console.WriteLine(stringBuilder);        //will print Hi because it changed in the method (new object created)
+
+
             #endregion
 
 
