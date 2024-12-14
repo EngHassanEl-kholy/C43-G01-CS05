@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Numerics;
+using System.Text;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
 {
@@ -47,6 +49,30 @@ namespace Assignment
         //    return sum;
         //}
         #endregion
+
+        #region Q05
+        //static bool isPrime(int number)
+        //{
+        //    if (number < 2)
+        //    {
+        //        return false;
+        //    }
+
+         
+        //    for (int i = 2; i <= Math.Sqrt(number); i++)
+        //    {
+        //        if (number % i == 0)
+        //        {
+        //            return false;
+        //        }
+        //    }
+
+        //    return true;
+        //}
+        
+        #endregion
+
+
         static void Main(string[] args)
         {
             #region Q01
@@ -89,6 +115,12 @@ namespace Assignment
             //4-Write a program in C# Sharp to create a function to calculate
             //the sum of the individual digits of a given number.
             //Console.WriteLine(SumOfDigit(303));  //6
+            #endregion
+
+            #region Q05
+            //5-Create a function named "IsPrime", which receives an integer number
+            //and retuns true if it is prime, or false if it is not:
+            
             #endregion
 
 
