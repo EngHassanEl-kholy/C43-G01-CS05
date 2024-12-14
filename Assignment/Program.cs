@@ -16,7 +16,7 @@ namespace Assignment
         #endregion
 
         #region Q02
-        
+
         //static void AddHi(StringBuilder stringBuilder)
         //{
         //    stringBuilder.Append(" Hi");
@@ -24,6 +24,14 @@ namespace Assignment
         //static void AddHi(ref StringBuilder stringBuilder)
         //{
         //    stringBuilder = new StringBuilder("Hi");
+        //}
+        #endregion
+
+        #region Q03
+        //static void sumSub(int num01,int num02,out int sum,out int sub)
+        //{
+        //    sum=num01+num02;
+        //    sub = num01 - num02;
         //}
         #endregion
         static void Main(string[] args)
@@ -52,6 +60,18 @@ namespace Assignment
 
 
             #endregion
+
+            #region Q03
+            //3-Write a c# Function that accept 4 parameters from user and
+            //return result of summation and subtracting of two numbers
+            //int Num01 = 10, Num02 = 5, Sum, Sub;
+            //sumSub(Num01, Num02,out  Sum,out Sub);
+            //Console.WriteLine($" {Num01} + {Num02} = {Sum}");
+            //Console.WriteLine($" {Num01} - {Num02} = {Sub}");
+
+
+            #endregion
+
 
 
         }
