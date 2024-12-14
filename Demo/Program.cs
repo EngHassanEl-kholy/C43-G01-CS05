@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Text;
+
+namespace Demo
 {
     class Program
     {
@@ -24,7 +26,7 @@
         #region Value Type Parameters
         //static void swap(ref int x,ref int y)
         //{
-            
+
         //    int temp = x;
         //    x = y;
         //    y = temp;
@@ -32,6 +34,30 @@
         //static void Increment(int num)
         //{
         //    num += 10;
+        //}
+        #endregion
+
+        #region Reference Type Parameters
+        //static int sum(int[] nums)
+        //{
+        //    int sum = 0;
+        //    if (nums is not null)
+        //    {
+        //        for (int i = 0; i < nums.Length; i++)
+        //        {
+        //            sum += nums[i];
+        //        }
+        //    }
+        //    return sum;
+        //}
+        //static void AddNewText(StringBuilder sb)
+        //{
+        //    sb.AppendLine(" New Text");
+        //}
+        //static void Change(ref int[] nums)
+        //{
+        //    nums = [ 10, 20,30,40];
+
         //}
         #endregion
         static void Main(string[] args)
@@ -56,6 +82,17 @@
             // Increment(A);            //pass by value [input]
             // Console.WriteLine(A);
 
+            #endregion
+
+            #region Reference Type Parameters
+            // int[] arr = { 1, 2, 3 };
+            //sum(arr);
+            //StringBuilder stringBuilder = new StringBuilder();
+            //stringBuilder.Append("Hassan");
+            //AddNewText(stringBuilder);
+            //Console.WriteLine(stringBuilder);
+            //Change(ref arr);
+            //Console.WriteLine( arr[3]); //40
             #endregion
 
 
