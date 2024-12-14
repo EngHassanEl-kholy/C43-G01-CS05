@@ -58,7 +58,7 @@ namespace Assignment
         //        return false;
         //    }
 
-         
+
         //    for (int i = 2; i <= Math.Sqrt(number); i++)
         //    {
         //        if (number % i == 0)
@@ -69,9 +69,31 @@ namespace Assignment
 
         //    return true;
         //}
-        
+
         #endregion
 
+        #region Q06
+        //static void MinMaxArray(int[] arr, ref int min, ref int max)
+        //{
+        //    min = arr[0];
+        //    max = arr[0];
+        //    if (arr is not null)
+        //    {
+        //        for (int i = 0; i < arr.Length; i++)
+        //        {
+        //            if (min > arr[i])
+        //            {
+        //                min = arr[i];
+        //            }
+        //            if (max < arr[i])
+        //            {
+        //                max = arr[i];
+        //            }
+
+        //        }
+        //    }
+        //}
+        #endregion
 
         static void Main(string[] args)
         {
@@ -120,12 +142,24 @@ namespace Assignment
             #region Q05
             //5-Create a function named "IsPrime", which receives an integer number
             //and retuns true if it is prime, or false if it is not:
-            
+
             #endregion
 
+            #region Q06
+            //6-Create a function named MinMaxArray, to return the minimum and maximum
+            //values stored in an array, using reference parameters
+            //int[] arr = [1, 2, 3, 4, 5];
+            //int min = 0;
+            //int max = 0;
+            //MinMaxArray(arr, ref min, ref max);
+            //Console.WriteLine(min);
+            //Console.WriteLine(max);
+            #endregion
 
 
 
         }
     }
 }
+
+
