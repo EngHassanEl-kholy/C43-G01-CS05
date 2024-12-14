@@ -60,6 +60,14 @@ namespace Demo
 
         //}
         #endregion
+
+        #region Passing By Out
+        //static void SumMul(int x,int y,out int sum,out int mul)
+        //{
+        //    sum = x + y;
+        //    mul = x * y;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Function Prototype and Calling
@@ -93,6 +101,12 @@ namespace Demo
             //Console.WriteLine(stringBuilder);
             //Change(ref arr);
             //Console.WriteLine( arr[3]); //40
+            #endregion
+
+            #region Passing By Out
+            //int A = 10, B = 12, Sum,Mul;
+            //SumMul(A, B,out Sum,out Mul);
+
             #endregion
 
 
