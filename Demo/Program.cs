@@ -94,6 +94,36 @@ namespace Demo
 
         //}
         #endregion
+
+        #region Params
+        //static int SumArray(params int[] array)
+        //{
+        //    int sum = 0;
+        //    foreach (int i in array)
+        //    {
+        //        sum += i;
+        //    }
+        //    return sum;
+        //}
+        //static string FormatString(string str,params object[] arr)
+        //{
+            
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        str+= arr[i].ToString();
+        //    }
+        //    return str;
+        //}
+        //static int SumNumbers(params IEnumerable<int> numbers)
+        //{
+        //    int sum = 0;
+        //    foreach (int number in numbers)
+        //    {
+        //        sum += number;
+        //    }
+        //    return sum;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Function Prototype and Calling
@@ -149,7 +179,11 @@ namespace Demo
             //}
             #endregion
 
-
+            #region Params
+            // Console.WriteLine(SumArray(1,2,3)); 
+            //Console.WriteLine(FormatString("Hi",120,"Hassan",0.2));
+           // Console.WriteLine(SumNumbers(12,34,2));
+            #endregion
         }
     }
 }
