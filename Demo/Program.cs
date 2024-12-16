@@ -68,6 +68,32 @@ namespace Demo
         //    mul = x * y;
         //}
         #endregion
+
+        #region Real Example on Passing by Out
+        //static bool CheckCustomerHaveDiscount(int CustomerId,out decimal discount)
+        //{
+        //    int CustomerPoints = GetCustomerPoints(CustomerId);
+        //    if (CustomerPoints > 0)
+        //    {
+        //        discount = CustomerPoints * .1m;
+        //        return true;
+        //    }
+        //    discount = default;
+        //    return false;
+        //}
+        //static int GetCustomerPoints(int CustomerId)
+        //{
+        //    if(CustomerId >1001)
+        //    {
+        //        return 100;
+        //    }
+        //    else
+        //    {
+        //        return default;
+        //    }
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Function Prototype and Calling
@@ -107,6 +133,20 @@ namespace Demo
             //int A = 10, B = 12, Sum,Mul;
             //SumMul(A, B,out Sum,out Mul);
 
+            #endregion
+
+            #region Real Example on Passing by Out
+            //int customerID = 2002;
+            //decimal discount;
+            //bool isEligible = CheckCustomerHaveDiscount(customerID, out discount);
+            //if (isEligible)
+            //{
+            //    Console.WriteLine($"Customer Discount = {discount}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Customer is not eligiable");
+            //}
             #endregion
 
 
